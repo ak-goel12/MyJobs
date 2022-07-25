@@ -1,0 +1,87 @@
+.modalBackground {
+    position: absolute;
+    display: flex;
+    z-index:1;
+    align-items: center;
+    margin-top: -7rem;
+    margin-left: 15rem;
+    opacity: 1;
+}
+  
+.modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+  
+.modalContainer .title {
+    display: inline-block;
+    text-align: left;
+    font: normal normal medium 19px/24px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #303F60;
+    opacity: 1;
+    padding: 1rem;
+  }
+  
+.titleCloseBtn {
+    display: flex;
+    justify-content:space-between;
+}
+  
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-weight: 900;   
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+
+  .titleCloseBtn span {
+    text-align: left;
+    opacity: 1;
+
+    color: #303F60;
+    font-weight: 600;
+    font: normal normal medium 19px/24px Helvetica Neue;
+  }
+  
+
+.boundary  hr{
+    margin-top: 0.5rem;
+    width: 100%; 
+    border-top: 1px solid #A9AFBC;
+    margin-bottom: 0.5rem;
+}
+
+.applicants-title  span{
+    text-align: left;
+    font: normal normal normal 15px/17px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #303F60;
+    opacity: 1; 
+    padding-left: 10px;
+}
+
+.modalContainer .applicants-container {
+  margin-top:10px;
+  border:2px solid #A9AFBC ;
+  border-radius: 10px;
+  background: #f0f1f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+  top: 193px;
+  left: 395px;
+  height: 100%;
+  display: inline-block;
+  max-height:420px;
+  overflow-y: scroll;
+  max-width: 100vW;
+}
+
+  
